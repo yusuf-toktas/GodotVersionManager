@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Godot Version Manager logo">
+  <!-- Same geometry as src/GodotVersionManager.App/Themes/Brand.xaml (the source of truth). -->
+  <defs>
+    <linearGradient id="badge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5DAAE2"/>
+      <stop offset="1" stop-color="#2D69A6"/>
+    </linearGradient>
+    <linearGradient id="highlight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.2"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="224" height="224" rx="56" fill="url(#badge)"/>
+  <rect x="16" y="16" width="224" height="224" rx="56" fill="url(#highlight)"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M56 158 L128 198 L200 158" stroke-opacity="0.55"/>
+    <path d="M56 124 L128 164 L200 124" stroke-opacity="0.85"/>
+  </g>
+  <path d="M128 55 L200 95 L128 135 L56 95 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round"/>
+</svg>
