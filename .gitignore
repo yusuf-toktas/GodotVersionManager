@@ -1,0 +1,47 @@
+## Build output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+publish/
+
+## Portable-mode data created when running a local build
+GodotVersionManagerData/
+portable.txt
+
+## Visual Studio / Rider / VS Code
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.sln.iml
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+## Test results
+[Tt]est[Rr]esult*/
+*.trx
+coverage*.json
+coverage*.xml
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+
+## Installer output
+installer/InnoSetup/Output/
+*.exe
+
+## OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Local settings
+appsettings.Local.json

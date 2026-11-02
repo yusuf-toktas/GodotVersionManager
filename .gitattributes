@@ -1,0 +1,12 @@
+# Normalize text files; Windows project, so check out with CRLF (matches .editorconfig).
+* text=auto eol=crlf
+
+*.sh  text eol=lf
+
+# Binary assets
+*.png binary
+*.ico binary
+*.bmp binary
+*.jpg binary
+*.exe binary
+*.dll binary
